@@ -11,6 +11,16 @@
     height: 100vh;
 }
 
+.carousel-item::before{
+    content: " ";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 .carousel-item{
     height: 100%;
     background-size: cover;
@@ -20,15 +30,15 @@
 }
 
 .carousel-item-1{
-    background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2014/05/Sunrise-at-Seongsan-Ilchulbong-Jeju-island-South-Korea.jpg);
+    background-image: url(img/Pulau-Hoga.jpg);
 }
 
 .carousel-item-2{
-    background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2014/05/Sunrise-at-Seongsan-Ilchulbong-Jeju-island-South-Korea.jpg);
+    background-image: url(img/Pulau-Hoga.jpg);
 }
 
 .carousel-item-3{
-    background-image: url(https://d36tnp772eyphs.cloudfront.net/blogs/1/2014/05/Sunrise-at-Seongsan-Ilchulbong-Jeju-island-South-Korea.jpg);
+    background-image: url(img/Pulau-Hoga.jpg);
 }
 
 /* End Hero Style */
