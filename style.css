@@ -2,29 +2,39 @@
 h1, h2, h3, h4, h5, h6{
     font-family: 'Poppins', sans-serif;
 }
-
+/* Section Header */
+.section-header .section-title {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .section-header .section-description {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #999;
+  }
+/* End of Section Header */
 /* Navbar style */
 .bg-light{
     background-color: transparent !important;
 }
-
 .nav-item{
     margin: 0.5rem 1rem 0.5rem;
     font-family: 'Poppins', sans-serif;
 }
-
 .dropdown-menu{
     background-color: rgba(0, 0, 0, 0.6) ;
 }
-
 /* End Navbar Style */
 /* Hero Style */
-
 .carousel-inner {
     width: 100vw;
     height: 100vh;
 }
-
 .carousel-item::before{
     content: " ";
     background: rgba(0, 0, 0, 0.6);
@@ -34,86 +44,92 @@ h1, h2, h3, h4, h5, h6{
     left: 0;
     right: 0;
 }
-
 .carousel-item{
     height: 100%;
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
 }
-
 .carousel-item-1{
     background-image: url(img/Pulau-Hoga.jpg);
 }
-
 .carousel-item-2{
     background-image: url(img/Pulau-Hoga.jpg);
 }
-
 .carousel-item-3{
     background-image: url(img/Pulau-Hoga.jpg);
 }
-
-
 .carousel-caption{
     top: 20vh;
 }
-
 .carousel-caption h5{
     font-size: 72px ;
     font-style: bold;
     color: white;
-    
 }    
 .carousel-caption h5:hover{
-    font-size: 8.5vw ;
-    font-style: bold;
-    
-    
+    font-size: 80px ;
+    font-style: bold;   
 }    
-
 .carousel-caption p{
     font-size: 30px ;
-
 }
-
 .carousel-caption .btn-primary{
     background-color: rgba(0, 0, 0, 0.6);
-    margin-top: 5vh;
-    
+    margin-top: 5vh;    
 }
-
 @media (max-width: 768px) {
-
     .carousel-caption h5{
-        font-size: 7vw ;
+        font-size: 12vw ;
         font-style: bold;
-        color: white;
-    
+        color: white;    
     }    
+    .carousel-caption h5:hover{
+        font-size: 12.5vw ;
+        font-style: bold;
+    }        
     .carousel-caption p{
         font-size: 5vw ;
     }    
-    .carousel-caption .btn-primary {
-      padding:2px 4px;
+    .carousel-caption .btn-primary {      
       font-size:80%;
       line-height: 1;
     }
   }
-  
-  @media (max-width: 579px){
-    .carousel-caption h5{
-        font-size: 7vw ;
-        font-style: bold;
-        color: white;
-    
+@media (max-width: 579px){
+.carousel-caption h5{
+    font-size: 10vw ;
+    font-style: bold;
+    color: white;    
     }    
+    .carousel-caption h5:hover{
+        font-size: 10.5vw ;
+        font-style: bold;
+    }  
     .carousel-caption p{
         display: none;
+    }
+}
+/* End Hero Style */
+
+/* Facts Section
+--------------------------------*/
+#facts {
+    background: #f7f7f7;
+    padding: 80px 0 60px 0;
   }
   
+  #facts .counters span {
+    font-size: 48px;
+    display: block;
+    color: #4abdcc;
+  }
+  
+  #facts .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
 
-
-
-/* End Hero Style */
+  /* End of Facts Section */
