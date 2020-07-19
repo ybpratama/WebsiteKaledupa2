@@ -103,17 +103,41 @@ h1, h2, h3, h4, h5, h6{
   }
   
   @media (max-width: 579px){
-    .carousel-caption h5{
-        font-size: 7vw ;
-        font-style: bold;
-        color: white;
-    
-    }    
-    .carousel-caption p{
-        display: none;
+        .carousel-caption h5{
+            font-size: 7vw ;
+            font-style: bold;
+            color: white;
+        
+        }    
+        .carousel-caption p{
+            display: none;
+    }
   }
-  
-
 
 
 /* End Hero Style */
+
+/* About */
+
+.about{
+    background-color: red;
+    height: 80vh;
+}
+
+.about-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.about-description{
+    background-color: blue;
+}
+
+.about-video{
+    background-color: green;
+}
+
+
+/* End About */
