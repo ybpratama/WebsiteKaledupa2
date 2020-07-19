@@ -1,13 +1,13 @@
 // Init AOS
-    AOS.init({
-      duration: 500
-    //   once: true
-    });
-  $(window).on('load', function() {
+AOS.init({
+    once: true,
+    duration: 500,    
+});
+$(window).on('load', function() {
     aos_init();
-  });
+});
 // jQuery counterUp
 $('.counter-up').counterUp({
     duration: 1000,
-    delay: 16
-  });
+    delay: 16,
+});
