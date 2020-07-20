@@ -3,20 +3,36 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* 1. Navbar style */
+
+/* Section Header */
+.section-header .section-title {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .section-header .section-description {
+    text-align: center;
+    padding-bottom: 40px;
+    color: #999;
+  }
+/* End of Section Header */
+/* Navbar style */
 .bg-light{
     background-color: transparent !important;
 }
-
 .nav-item{
     margin: 0.5rem 1rem 0.5rem;
     font-family: 'Poppins', sans-serif;
 }
-
 .dropdown-menu{
     background-color: rgba(0, 0, 0, 0.6) ;
 }
-
 /* End Navbar Style */
 
 /* 2. Hero Style */
@@ -25,7 +41,6 @@ h1, h2, h3, h4, h5, h6{
     width: 100vw;
     height: 100vh;
 }
-
 .carousel-item::before{
     content: " ";
     background: rgba(0, 0, 0, 0.6);
@@ -35,73 +50,59 @@ h1, h2, h3, h4, h5, h6{
     left: 0;
     right: 0;
 }
-
 .carousel-item{
     height: 100%;
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
 }
-
 .carousel-item-1{
     background-image: url(img/Pulau-Hoga.jpg);
 }
-
 .carousel-item-2{
     background-image: url(img/Pulau-Hoga.jpg);
 }
-
 .carousel-item-3{
     background-image: url(img/Pulau-Hoga.jpg);
 }
-
-
 .carousel-caption{
     top: 20vh;
 }
-
 .carousel-caption h5{
     font-size: 72px ;
     font-style: bold;
     color: white;
-    
 }    
 .carousel-caption h5:hover{
-    font-size: 8.5vw ;
-    font-style: bold;
-    
-    
+    font-size: 80px ;
+    font-style: bold;   
 }    
-
 .carousel-caption p{
     font-size: 30px ;
-
 }
-
 .carousel-caption .btn-primary{
     background-color: rgba(0, 0, 0, 0.6);
-    margin-top: 5vh;
-    
+    margin-top: 5vh;    
 }
-
 @media (max-width: 768px) {
-
     .carousel-caption h5{
-        font-size: 7vw ;
+        font-size: 12vw ;
         font-style: bold;
-        color: white;
-    
+        color: white;    
     }    
+    .carousel-caption h5:hover{
+        font-size: 12.5vw ;
+        font-style: bold;
+    }        
     .carousel-caption p{
         font-size: 5vw ;
     }    
-    .carousel-caption .btn-primary {
-      padding:2px 4px;
+    .carousel-caption .btn-primary {      
       font-size:80%;
       line-height: 1;
     }
   }
+
   
   @media (max-width: 579px){
         .carousel-caption h5{
@@ -114,6 +115,30 @@ h1, h2, h3, h4, h5, h6{
             display: none;
     }
   }
+/* End Hero Style */
+
+/* Facts Section
+--------------------------------*/
+#facts {
+    background: #f7f7f7;
+    padding: 80px 0 60px 0;
+  }
+  
+  #facts .counters span {
+    font-size: 48px;
+    display: block;
+    color: #4abdcc;
+  }
+  
+  #facts .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+  }
+
+
+  /* End of Facts Section */
 
 
 /* End Hero Style */
@@ -277,4 +302,163 @@ h1, h2, h3, h4, h5, h6{
 /* End About-Video */
 /* End About */
 
+
+
+  /* Services Section
+--------------------------------*/
+#services {
+    background: #fff;
+    background-size: cover;
+    padding: 80px 0 60px 0;
+  }
+  
+  #services .box {
+    padding: 50px 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 1px solid #e6e6e6;
+    height: 200px;
+    position: relative;
+    
+  }
+  #Pajam .bg-img{
+    background-image: url("https://theculturetrip.com/wp-content/uploads/2017/07/11052514_352674761593360_3207542179154652947_n.jpg");
+    filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+  }
+  #Horuo .bg-img{
+    background-image: url("https://theculturetrip.com/wp-content/uploads/2017/07/11052514_352674761593360_3207542179154652947_n.jpg");
+    filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+  }
+
+  
+  #services .icon {
+    position: absolute;
+    top: -36px;
+    left: calc(50% - 36px);
+    transition: 0.2s;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    background: #4abdcc;
+  }
+  
+  #services .icon a {
+    display: inline-block;
+  }
+  
+  #services .icon i {
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  #services .box:hover .icon {
+    background: #fff;
+    border: 2px solid #4abdcc;
+  }
+  
+  #services .box:hover .icon i {
+    color: #4abdcc;
+  }
+  
+  #services .box:hover .icon a {
+    color: #4abdcc;
+  }
+  
+  #services .title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    position: relative;
+
+    
+  }
+  
+  #services .title a {
+    color: #111;
+  }
+  
+  #services .description {
+    font-size: 14px;
+    line-height: 24px;
+    
+    position: relative;
+    
+   
+  }
+/* Call to action section */
+  #call-to-action {
+    background: linear-gradient(rgba(0, 27, 40, 0.6), rgba(0, 27, 40, 0.6)), url(img/sumber-google.jpg) fixed center center;
+    background-size: cover;
+    padding: 80px 0;
+  }
+  
+  @media (max-width: 1024px) {
+    #call-to-action {
+      background-attachment: scroll;
+    }
+  }
+  
+  #call-to-action .cta-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  #call-to-action .cta-text {
+    color: #fff;
+  }
+  
+  @media (min-width: 769px) {
+    #call-to-action .cta-btn-container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+  
+  #call-to-action .cta-btn {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  #call-to-action .cta-btn:hover {
+    background: #4abdcc;
+    border: 2px solid #4abdcc;
+  }
+  
 

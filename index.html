@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <title>Website Kaledupa</title>
 
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- FA kit icon -->
+  <script src="https://kit.fontawesome.com/c287270728.js" crossorigin="anonymous"></script>
   <!-- Template Main CSS File -->
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></head>
+
   <link rel="stylesheet" href="style.css"> -->
 
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +22,11 @@
   <link rel="stylesheet" href="assets/vendors/venobox/venobox.min.css" type="text/css" media="screen" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css">
+
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"> <body>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
@@ -32,7 +42,7 @@
     <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-transparent">
       <nav class="container">
         <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" class="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
@@ -51,7 +61,7 @@
               <a class="nav-link" href="#">Portofolio</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" class="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -108,10 +118,125 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+
+  <!-- Fact Section -->
+  <section id="facts">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+      <div class="section-header">
+        <h3 class="section-title">Facts</h3>
+        <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+      </div>
+      <div class="row counters">
+
+        <div class="col-lg-3 col-6 text-center">
+          <span class='counter-up'>1</span>
+          <p>Diving Site</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span class='counter-up'>23</span>
+          <p>Snorkeling Site</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span class='counter-up'>456</span>
+          <p>Beach</p>
+        </div>
+
+        <div class="col-lg-3 col-6 text-center">
+          <span class='counter-up'>7890</span>
+          <p>Resort</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- End of Fact Section -->
+
+  <!-- ======= Services Section ======= -->
+  <section id="services">
+    <div class="container" data-aos="fade-up">
+      <div class="section-header">
+        <h3 class="section-title">Areas of Kaledupa</h3>
+        <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+          <div id="Mantigola" class="box">
+            <div class="bg-img"></div> 
+            <div class="icon"><a href=""><i class="fa fa-water" aria-hidden="true"></i></a></div>
+            <h4 class="title"><a href="">Mantigola</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+          <div id="Horuo" class="box">
+            <div class="bg-img"></div> 
+            <div class="icon"><a href=""><i class="fa fa-bar-chart"></i></a></div>
+            <h4 class="title"><a href="">Horuo</a></h4>
+            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+          <div id="Pajam" class="box">
+            <div class="bg-img"></div> 
+            <div class="icon"><a href=""><i class="fa fa-mountain"></i></a></div>
+            <h4 class="title"><a href="">Pajam</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>        
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+          <div id="Sombano" class="box">
+            <div class="bg-img"></div> 
+            <div class="icon"><a href=""><i class="fa fa-photo"></i></a></div>
+            <h4 class="title"><a href="">Sombano</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+          <div id="Darawa" class="box">
+            <div class="bg-img"></div> 
+            <div class="icon"><a href=""><i class="fa fa-seedling"></i></a></div>
+            <h4 class="title"><a href="">Darawa</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6" data-aos="zoom-in">
+          <div id="Soon" class="box">
+            <div class="bg-img"></div> 
+            <div class="icon"><a href=""><i class="fa fa-map-o"></i></a></div>
+            <h4 class="title"><a href="">Many Others</a></h4>
+            <p class="description">nah yang bagian ini bayangan gw sih dibikin rada beda ntar efeknya, soalnya belom ada data, coming soon gt lah</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Call To Action Section ======= -->
+  <section id="call-to-action">
+    <div class="container">
+      <div class="row" data-aos="zoom-in">
+        <div class="col-lg-9 text-center text-lg-left">
+          <h3 class="cta-title">Resort in Kaledupa</h3>
+          <p class="cta-text">Nah bagian ini ntar redirect ke page yang isinya resort resort di kaledupa, gw kasih tulisan book now dalam artian di konten resort kita ngasih kontak resort biar mereka bisa booking sendiri, jadi bookingnya ga lewat web kita dulu</p>
+        </div>
+        <div class="col-lg-3 cta-btn-container text-center">
+          <a class="cta-btn align-middle" href="#">Book Now (ini dibikin gedean gimana caranya)</a>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Call To Action Section -->
   
 
   <section>
-    <div id="about">
+    <div id="
+             
+             ">
       <div class="container shadow">
         <div class="row">
           <div class="col-lg-6 order-2 order-lg-1">
@@ -151,12 +276,16 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script type="text/javascript" src="assets/vendors/venobox/venobox.min.js"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="main.js"></script>
+  <!-- Vendor JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+  <!-- Main JS file -->
+  <script src="main.js"></script>
+
   
-
-
-
-
 </body>
 </html>
