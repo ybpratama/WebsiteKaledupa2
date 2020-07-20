@@ -118,26 +118,51 @@ h1, h2, h3, h4, h5, h6{
 /* End Hero Style */
 
 /* About */
-
 .about{
-    background-color: red;
-    height: 80vh;
+    margin: 20px 20px;
 }
 
-.about-container{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    justify-content: space-around;
+.shadow{
+    box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
 }
 
-.about-description{
-    background-color: blue;
+.video-container{
+background-color: blue;
+box-sizing: border-box;
+height: 60vh;
+width: 40vw;
+margin: auto auto;
+/* background-image: url(img/Jellyfish.jpg); */
+background-color: khaki;
+background-size: cover;
+background-position: center center;
+position: relative;
 }
 
-.about-video{
-    background-color: green;
+.about .play-btn {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#428bca 50%, rgba(66, 139, 202, 0.4) 52%);
+    margin: auto;
 }
 
+.fa-play{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
 
 /* End About */
