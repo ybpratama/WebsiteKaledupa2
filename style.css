@@ -2,8 +2,6 @@
 h1, h2, h3, h4, h5, h6{
     font-family: 'Poppins', sans-serif;
 }
-
-
 /* 1. Navbar style */
 
 /* Section Header */
@@ -23,98 +21,117 @@ h1, h2, h3, h4, h5, h6{
   }
 /* End of Section Header */
 /* Navbar style */
-.bg-light{
-    background-color: transparent !important;
-}
+
 .nav-item{
     margin: 0.5rem 1rem 0.5rem;
     font-family: 'Poppins', sans-serif;
 }
-.dropdown-menu{
-    background-color: rgba(0, 0, 0, 0.6) ;
+
+.bg-light{
+  background-color: aqua !important;
 }
+
+
 /* End Navbar Style */
 
 /* 2. Hero Style */
 
 .carousel-inner {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
-.carousel-item::before{
-    content: " ";
-    background: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.carousel-item{
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;    
-}
-.carousel-item-1{
-    background-image: url(img/Pulau-Hoga.jpg);
-}
-.carousel-item-2{
-    background-image: url(img/Pulau-Hoga.jpg);
-}
-.carousel-item-3{
-    background-image: url(img/Pulau-Hoga.jpg);
-}
-.carousel-caption{
-    top: 20vh;
-}
-.carousel-caption h5{
-    font-size: 72px ;
-    font-style: bold;
-    color: white;
-}    
-.carousel-caption h5:hover{
-    font-size: 80px ;
-    font-style: bold;   
-}    
-.carousel-caption p{
-    font-size: 30px ;
-}
-.carousel-caption .btn-primary{
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-top: 5vh;    
-}
-@media (max-width: 768px) {
-    .carousel-caption h5{
-        font-size: 12vw ;
-        font-style: bold;
-        color: white;    
-    }    
-    .carousel-caption h5:hover{
-        font-size: 12.5vw ;
-        font-style: bold;
-    }        
-    .carousel-caption p{
-        font-size: 5vw ;
-    }    
-    .carousel-caption .btn-primary {      
-      font-size:80%;
-      line-height: 1;
-    }
-  }
 
+.carousel-item::before{
+  content: " ";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.carousel-item{
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   
-  @media (max-width: 579px){
-        .carousel-caption h5{
-            font-size: 7vw ;
-            font-style: bold;
-            color: white;
-        
-        }    
-        .carousel-caption p{
-            display: none;
-    }
+}
+
+.carousel-item-1{
+  background-image: url(img/Pulau-Hoga.jpg);
+}
+
+.carousel-item-2{
+  background-image: url(img/Pulau-Hoga.jpg);
+}
+
+.carousel-item-3{
+  background-image: url(img/Pulau-Hoga.jpg);
+}
+
+
+.carousel-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: white;
+}
+
+.carousel-title h5{
+  font-size: 72px ;
+  font-style: bold;
+  color: white;
+  
+}    
+
+.carousel-title p{
+  font-size: 30px ;
+
+}
+
+
+@media (max-width: 768px) {
+
+  .carousel-title h5{
+      font-size: 7vw ;
+      font-style: bold;
+      color: white;
+  
+  }    
+  .carousel-title p{
+      font-size: 5vw ;
+  }    
+  
+}
+
+@media (max-width: 579px){
+      .carousel-title h5{
+          font-size: 7vw ;
+          font-style: bold;
+          color: white;
+      
+      }    
+      .carousel-title p{
+          display: none;
   }
+}
+/* 2.2 Button */
+
+.button{
+  background-color: white;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  margin: 10px;
+  border: 2px solid #fff;
+}
+
+/* Button */
+
 /* End Hero Style */
 
 /* Facts Section

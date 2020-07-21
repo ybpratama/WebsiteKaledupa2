@@ -9,8 +9,7 @@
   <!-- Favicons -->
   <link href="img/favicon.png" rel="icon">
   <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-  <!-- FA kit icon -->
-  <script src="https://kit.fontawesome.com/c287270728.js" crossorigin="anonymous"></script>
+  
   <!-- Template Main CSS File -->
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></head>
@@ -32,6 +31,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
   
   <link href="style.css" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -39,10 +39,10 @@
   <!--Header-->
   <header>
     
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-transparent">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
       <nav class="container">
         <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" class="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       
@@ -61,7 +61,7 @@
               <a class="nav-link" href="#">Portofolio</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" class="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -88,24 +88,36 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item carousel-item-1 active">
-        <div class="carousel-caption">
-          <h5>PAJAM</h5>
-          <p>satu dua tiga empat lima ena ena</p>
-          <a href="#" class="btn btn-primary button-responsive" role="button">Learn more</a>
+        <div class="carousel-title">
+          <div class="row justify-content-md-center">
+            <h5 class="col-12">PAJAM</h5>
+            <p class="col-12">satu dua tiga empat lima ena ena</p>
+            <div class="col-12 text-box">
+              <a href="#" class="button button-white button-animate">click me</a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="carousel-item carousel-item-2">
-        <div class="carousel-caption">
-          <h5>Pajam</h5>
-          <p>satu dua tiga empat lima ena ena</p>
-          <a href="#" class="btn btn-primary button-responsive" role="button">Learn more</a>
+        <div class="carousel-title">
+          <div class="row justify-content-md-center">
+            <h5 class="col-12">PAJAM</h5>
+            <p class="col-12">satu dua tiga empat lima ena ena</p>
+            <div class="col-12 text-box">
+              <a href="#" class="button button-white button-animate">click me</a>
+            </div>
+          </div>
         </div>
       </div>
       <div class="carousel-item carousel-item-3">
-        <div class="carousel-caption">
-          <h5>Pajam</h5>
-          <p>satu dua tiga empat lima ena ena</p>
-          <a href="#" class="btn btn-primary button-responsive" role="button">Learn more</a>
+        <div class="carousel-title">
+          <div class="row justify-content-md-center">
+            <h5 class="col-12">PAJAM</h5>
+            <p class="col-12">satu dua tiga empat lima ena ena</p>
+            <div class="col-12 text-box">
+              <a href="#" class="button button-white button-animate">click me</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -119,9 +131,41 @@
     </a>
   </div>
 
+  <section>
+    <div id="about">
+      <div class="container shadow my-3">
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="description-container m-3">
+              <h2 class="title">About Kaledupa</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <div class="icon"><i class="fas fa-plane"></i></div>
+                  <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                  <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                </div>
+              </div>
+            </div>
+          <div class="col-lg-6 order-1 order-lg-2">
+            <div class="video-container p-md-4 p-lg-3 m-3">
+                <img src="img/Pulau-Contoh.jpg" class="img-fluid" alt="">
+                <a href="https://www.youtube.com/watch?v=muKZsMwuLCE&t=55s" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+                <!-- <a href="#" class="play-btn">
+                  <i class="fas fa-play"></i>
+                </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
   <!-- Fact Section -->
   <section id="facts">
-    <div class="container aos-init aos-animate" data-aos="fade-up">
+    <div class="container " data-aos="fade-up">
       <div class="section-header">
         <h3 class="section-title">Facts</h3>
         <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
@@ -231,59 +275,31 @@
 
     </div>
   </section><!-- End Call To Action Section -->
-  
-
-  <section>
-    <div id="
-             
-             ">
-      <div class="container shadow">
-        <div class="row">
-          <div class="col-lg-6 order-2 order-lg-1">
-            <div class="description-container my-3">
-              <h2 class="title">About Kaledupa</h2>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <div class="icon"><i class="fas fa-plane"></i></div>
-                  <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                  <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-                </div>
-              </div>
-            </div>
-          <div class="col-lg-6 order-1 order-lg-2">
-            <div class="video-container p-md-4 p-lg-3 mx-3">
-                <img src="img/Pulau-Contoh.jpg" class="img-fluid" alt="">
-                <a href="https://www.youtube.com/watch?v=muKZsMwuLCE&t=55s" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
-                <!-- <a href="#" class="play-btn">
-                  <i class="fas fa-play"></i>
-                </a> -->
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-  </section>
-
-
 
 
   <!--Bootstrap Javascript-->
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script type="text/javascript" src="assets/vendors/venobox/venobox.min.js"></script> -->
+  <!-- Vendor JS -->
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script> -->
+
+  <!-- Main JS file -->
+  <!-- <script src="main.js"></script> -->
+
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script type="text/javascript" src="assets/vendors/venobox/venobox.min.js"></script>
-  <script src="main.js"></script>
-  <!-- Vendor JS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
-
-  <!-- Main JS file -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
   <script src="main.js"></script>
 
   
