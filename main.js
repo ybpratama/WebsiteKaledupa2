@@ -18,9 +18,3 @@ $(document).ready(function(){
 });
 
 
-// jQuery counterUp
-$('.counter-up').counterUp({
-    duration: 1000,
-    delay: 16,
-});
-

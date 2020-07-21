@@ -1,293 +1,187 @@
 /* Font Family */
 h1, h2, h3, h4, h5, h6{
-    font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-
 
 /* 1. Navbar style */
-
-/* Section Header */
-.section-header .section-title {
-    font-size: 32px;
-    color: #111;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 5px;
-  }
-  
-  .section-header .section-description {
-    text-align: center;
-    padding-bottom: 40px;
-    color: #999;
-  }
-/* End of Section Header */
-/* Navbar style */
 .bg-light{
-    background-color: transparent !important;
+  background-color: transparent !important;
 }
+
 .nav-item{
-    margin: 0.5rem 1rem 0.5rem;
-    font-family: 'Poppins', sans-serif;
+  margin: 0.5rem 1rem 0.5rem;
+  font-family: 'Poppins', sans-serif;
 }
+
 .dropdown-menu{
-    background-color: rgba(0, 0, 0, 0.6) ;
+  background-color: rgba(0, 0, 0, 0.6) ;
 }
+
 /* End Navbar Style */
 
 /* 2. Hero Style */
 
 .carousel-inner {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
+
 .carousel-item::before{
-    content: " ";
-    background: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-.carousel-item{
-    height: 100%;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;    
-}
-.carousel-item-1{
-    background-image: url(img/Pulau-Hoga.jpg);
-}
-.carousel-item-2{
-    background-image: url(img/Pulau-Hoga.jpg);
-}
-.carousel-item-3{
-    background-image: url(img/Pulau-Hoga.jpg);
-}
-.carousel-caption{
-    top: 20vh;
-}
-.carousel-caption h5{
-    font-size: 72px ;
-    font-style: bold;
-    color: white;
-}    
-.carousel-caption h5:hover{
-    font-size: 80px ;
-    font-style: bold;   
-}    
-.carousel-caption p{
-    font-size: 30px ;
-}
-.carousel-caption .btn-primary{
-    background-color: rgba(0, 0, 0, 0.6);
-    margin-top: 5vh;    
-}
-@media (max-width: 768px) {
-    .carousel-caption h5{
-        font-size: 12vw ;
-        font-style: bold;
-        color: white;    
-    }    
-    .carousel-caption h5:hover{
-        font-size: 12.5vw ;
-        font-style: bold;
-    }        
-    .carousel-caption p{
-        font-size: 5vw ;
-    }    
-  }
-
-  
-  @media (max-width: 579px){
-        .carousel-caption h5{
-            font-size: 7vw ;
-            font-style: bold;
-            color: white;
-        
-        }    
-        .carousel-caption p{
-            display: none;
-    }
-  }
-
-/* 2.2 Button */
-
-.btn:link,
-.btn:visited {
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 15px 40px;
-  display: inline-block;
-  border-radius: 100px;
-  -webkit-transition: all .2s;
-  transition: all .2s;
-  position: relative;
-}
-
-.btn:hover {
-  -webkit-transform: translateY(-3px);
-          transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.btn:active {
-  -webkit-transform: translateY(-1px);
-          transform: translateY(-1px);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-.btn-white {
-  background-color: #fff;
-  color: #777;
-}
-
-.btn::after {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 100px;
+  content: " ";
+  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 0;
+  bottom: 0;
   left: 0;
-  z-index: -1;
-  -webkit-transition: all .4s;
-  transition: all .4s;
+  right: 0;
 }
 
-.btn-white::after {
-  background-color: #fff;
-}
-
-.btn:hover::after {
-  -webkit-transform: scaleX(1.4) scaleY(1.6);
-          transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0;
-}
-
-.btn-animated {
-  -webkit-animation: moveInBottom 5s ease-out;
-          animation: moveInBottom 5s ease-out;
-  -webkit-animation-fill-mode: backwards;
-          animation-fill-mode: backwards;
-}
-
-@-webkit-keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(30px);
-            transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-}
-
-@keyframes moveInBottom {
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(30px);
-            transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0px);
-            transform: translateY(0px);
-  }
-}
-
-/* End Button */
-/* End Hero Style */
-
-/* Facts Section
---------------------------------*/
-#facts {
-    background: #f7f7f7;
-    padding: 80px 0 60px 0;
-  }
+.carousel-item{
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   
-  #facts .counters span {
-    font-size: 48px;
-    display: block;
-    color: #4abdcc;
-  }
+}
+
+.carousel-item-1{
+  background-image: url(img/Pulau-Hoga.jpg);
+}
+
+.carousel-item-2{
+  background-image: url(img/Pulau-Hoga.jpg);
+}
+
+.carousel-item-3{
+  background-image: url(img/Pulau-Hoga.jpg);
+}
+
+
+.carousel-title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: white;
+}
+
+.carousel-title h5{
+  font-size: 72px ;
+  font-style: bold;
+  color: white;
   
-  #facts .counters p {
-    padding: 0;
-    margin: 0 0 20px 0;
-    font-family: "Poppins", sans-serif;
-    font-size: 14px;
+}    
+
+.carousel-title p{
+  font-size: 30px ;
+
+}
+
+
+@media (max-width: 768px) {
+
+  .carousel-title h5{
+      font-size: 7vw ;
+      font-style: bold;
+      color: white;
+  
+  }    
+  .carousel-title p{
+      font-size: 5vw ;
+  }    
+  
+}
+
+@media (max-width: 579px){
+      .carousel-title h5{
+          font-size: 7vw ;
+          font-style: bold;
+          color: white;
+      
+      }    
+      .carousel-title p{
+          display: none;
   }
+}
+/* 2.2 Button */
 
+.button{
+  background-color: white;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 50px;
+  margin: 10px;
+  border: 2px solid #fff;
+}
 
-  /* End of Facts Section */
-
+/* Button */
 
 /* End Hero Style */
 
 /* 3. About */
 .about{
-    margin: 20px 20px;
+  margin: 20px 20px;
 }
 
 .shadow{
-    box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
+  box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
 }
 
 /* 3.1 About-Description */
 #about .description-container .icon-box {
-  background: #fff;
-  background-size: cover;
-  padding: 0 0 30px 0;
+background: #fff;
+background-size: cover;
+padding: 0 0 30px 0;
 }
 
 #about .description-container .icon-box .icon {
-  float: left;
-  background: #fff;
-  width: 64px;
-  height: 64px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  border-radius: 50%;
-  border: 2px solid #4abdcc;
+float: left;
+background: #fff;
+width: 64px;
+height: 64px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: center;
+border-radius: 50%;
+border: 2px solid #4abdcc;
 }
 
 #about .description-container .icon-box .icon i {
-  color: #4abdcc;
-  font-size: 24px;
+color: #4abdcc;
+font-size: 24px;
 }
 
 #about .description-container .icon-box .title {
-  margin-left: 80px;
-  font-weight: 500;
-  margin-bottom: 5px;
-  font-size: 18px;
-  text-transform: uppercase;
+margin-left: 80px;
+font-weight: 500;
+margin-bottom: 5px;
+font-size: 18px;
+text-transform: uppercase;
 }
 
 #about .description-container .icon-box .title a {
-  color: #111;
+color: #111;
 }
 
 #about .description-container .icon-box .description {
-  margin-left: 80px;
-  line-height: 24px;
-  font-size: 14px;
+margin-left: 80px;
+line-height: 24px;
+font-size: 14px;
 }
 
 /* End About-Description */
-.about .video-box {
+
+/* 3.2 About-Video */
+#about .video-container{
   position: relative;
+  margin: auto;
 }
 
-.about .play-btn {
+
+#about .video-container .play-btn {
   width: 94px;
   height: 94px;
   background: radial-gradient(#428bca 50%, rgba(66, 139, 202, 0.4) 52%);
@@ -299,7 +193,7 @@ h1, h2, h3, h4, h5, h6{
   overflow: hidden;
 }
 
-.about .play-btn::after {
+#about .video-container .play-btn::after {
   content: '';
   position: absolute;
   left: 50%;
@@ -314,7 +208,7 @@ h1, h2, h3, h4, h5, h6{
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
-.about .play-btn::before {
+#about .video-container .play-btn::before {
   content: '';
   position: absolute;
   width: 120px;
@@ -337,12 +231,12 @@ h1, h2, h3, h4, h5, h6{
   background: rgba(198, 16, 0, 0);
 }
 
-.about .play-btn:hover::after {
+#about .video-container .play-btn:hover::after {
   border-left: 15px solid #428bca;
   transform: scale(20);
 }
 
-.about .play-btn:hover::before {
+#about .video-container .play-btn:hover::before {
   content: '';
   position: absolute;
   left: 50%;
@@ -362,286 +256,26 @@ h1, h2, h3, h4, h5, h6{
 
 @-webkit-keyframes pulsate-btn {
   0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
+      transform: scale(0.6, 0.6);
+      opacity: 1;
   }
   100% {
-    transform: scale(1, 1);
-    opacity: 0;
+      transform: scale(1, 1);
+      opacity: 0;
   }
 }
 
 @keyframes pulsate-btn {
   0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
+      transform: scale(0.6, 0.6);
+      opacity: 1;
   }
   100% {
-    transform: scale(1, 1);
-    opacity: 0;
+      transform: scale(1, 1);
+      opacity: 0;
   }
-}
-/* 3.2 About-Video */
-#about .video-container{
-    position: relative;
-    margin: auto;
-}
-
-  
-#about .video-container .play-btn {
-    width: 94px;
-    height: 94px;
-    background: radial-gradient(#428bca 50%, rgba(66, 139, 202, 0.4) 52%);
-    border-radius: 50%;
-    display: block;
-    position: absolute;
-    left: calc(50% - 47px);
-    top: calc(50% - 47px);
-    overflow: hidden;
-}
-  
-#about .video-container .play-btn::after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-40%) translateY(-50%);
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #fff;
-    z-index: 100;
-    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
-}
-  
-#about .video-container .play-btn::before {
-    content: '';
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    -webkit-animation-delay: 0s;
-    animation-delay: 0s;
-    -webkit-animation: pulsate-btn 2s;
-    animation: pulsate-btn 2s;
-    -webkit-animation-direction: forwards;
-    animation-direction: forwards;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-timing-function: steps;
-    animation-timing-function: steps;
-    opacity: 1;
-    border-radius: 50%;
-    border: 5px solid rgba(66, 139, 202, 0.7);
-    top: -15%;
-    left: -15%;
-    background: rgba(198, 16, 0, 0);
-}
-  
-#about .video-container .play-btn:hover::after {
-    border-left: 15px solid #428bca;
-    transform: scale(20);
-}
-  
-#about .video-container .play-btn:hover::before {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translateX(-40%) translateY(-50%);
-    width: 0;
-    height: 0;
-    border: none;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-left: 15px solid #fff;
-    z-index: 200;
-    -webkit-animation: none;
-    animation: none;
-    border-radius: 0;
-}
-  
-@-webkit-keyframes pulsate-btn {
-    0% {
-        transform: scale(0.6, 0.6);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1, 1);
-        opacity: 0;
-    }
-}
-  
-@keyframes pulsate-btn {
-    0% {
-        transform: scale(0.6, 0.6);
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1, 1);
-        opacity: 0;
-    }
 }
 /* End About-Video */
 /* End About */
 
-
-
-  /* Services Section
---------------------------------*/
-#services {
-    background: #fff;
-    background-size: cover;
-    padding: 80px 0 60px 0;
-  }
-  
-  #services .box {
-    padding: 50px 20px;
-    margin-bottom: 50px;
-    text-align: center;
-    border: 1px solid #e6e6e6;
-    height: 200px;
-    position: relative;
-    
-  }
-  #Pajam .bg-img{
-    background-image: url("https://theculturetrip.com/wp-content/uploads/2017/07/11052514_352674761593360_3207542179154652947_n.jpg");
-    filter: blur(2px);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    
-  }
-  #Horuo .bg-img{
-    background-image: url("https://theculturetrip.com/wp-content/uploads/2017/07/11052514_352674761593360_3207542179154652947_n.jpg");
-    filter: blur(2px);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-    
-  }
-
-  
-  #services .icon {
-    position: absolute;
-    top: -36px;
-    left: calc(50% - 36px);
-    transition: 0.2s;
-    border-radius: 50%;
-    border: 6px solid #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    width: 72px;
-    height: 72px;
-    background: #4abdcc;
-  }
-  
-  #services .icon a {
-    display: inline-block;
-  }
-  
-  #services .icon i {
-    color: #fff;
-    font-size: 24px;
-  }
-  
-  #services .box:hover .icon {
-    background: #fff;
-    border: 2px solid #4abdcc;
-  }
-  
-  #services .box:hover .icon i {
-    color: #4abdcc;
-  }
-  
-  #services .box:hover .icon a {
-    color: #4abdcc;
-  }
-  
-  #services .title {
-    font-weight: 700;
-    font-size: 18px;
-    margin-bottom: 15px;
-    text-transform: uppercase;
-    position: relative;
-
-    
-  }
-  
-  #services .title a {
-    color: #111;
-  }
-  
-  #services .description {
-    font-size: 14px;
-    line-height: 24px;
-    
-    position: relative;
-    
-   
-  }
-/* Call to action section */
-  #call-to-action {
-    background: linear-gradient(rgba(0, 27, 40, 0.6), rgba(0, 27, 40, 0.6)), url(img/sumber-google.jpg) fixed center center;
-    background-size: cover;
-    padding: 80px 0;
-  }
-  
-  @media (max-width: 1024px) {
-    #call-to-action {
-      background-attachment: scroll;
-    }
-  }
-  
-  #call-to-action .cta-title {
-    color: #fff;
-    font-size: 28px;
-    font-weight: 700;
-  }
-  
-  #call-to-action .cta-text {
-    color: #fff;
-  }
-  
-  @media (min-width: 769px) {
-    #call-to-action .cta-btn-container {
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-    }
-  }
-  
-  #call-to-action .cta-btn {
-    font-family: "Poppins", sans-serif;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 8px 30px;
-    border-radius: 50px;
-    transition: 0.5s;
-    margin: 10px;
-    border: 2px solid #fff;
-    color: #fff;
-  }
-  
-  #call-to-action .cta-btn:hover {
-    background: #4abdcc;
-    border: 2px solid #4abdcc;
-  }
-  
 
