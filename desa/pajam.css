@@ -34,16 +34,16 @@
 
 /* Jumbotron */
 .jumbotron{
-  height: 50vh;
+  height: 75vh;
   vertical-align: bottom;
   }
 .jumbotron .container{
   text-align: center;
+  margin-top: 20vh;
+  
     
 }
-.jumbotron .container h1{
-  vertical-align: middle;
-}
+
 
 /* Info */
 
@@ -94,4 +94,5 @@ div.desc {
   display: table;
   clear: both;
 }
-}
+
+/* video */
