@@ -96,3 +96,28 @@ div.desc {
 }
 
 /* video */
+#video .container {
+  position: relative;
+  background-image: url("https://helpx.adobe.com/content/dam/help/en/stock/how-to/visual-reverse-image-search/jcr_content/main-pars/image/visual-reverse-image-search-v2_intro.jpg");
+  background-size: cover;
+  display: grid;
+  height: 30vh;
+  width: 85vw;
+}
+/* #video .container p{
+  text-align: center;
+} */
+#video .container .col{
+  align-self: center;
+}
+#video .container .btn{
+  position: absolute;
+  transition: box-shadow .3s;
+  margin-left: -20px;
+  margin-top: -20px;
+
+}
+#video .container .btn:hover{
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+
+}
