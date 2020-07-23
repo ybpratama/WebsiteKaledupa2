@@ -32,4 +32,38 @@
   opacity: 90% !important;
 }
 
+/* Jumbotron */
+.jumbotron{
+  height: 50vh;
+  vertical-align: bottom;
+  }
+.jumbotron .container{
+  text-align: center;
+    
+}
+.jumbotron .container h1{
+  vertical-align: middle;
+}
 
+/* Info */
+#info .col-sm{
+  text-align: center;
+  height: 200px;
+}
+#info .pic{
+  display: inline-block;
+  background-size: cover;
+    
+}
+#info .infoImg1{
+  background-image: url("https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg");
+}
+#info .infoImg2{
+  background-image: url("https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg");
+}
+#info .infoImg3{
+  background-image: url("https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg");
+}
+#info .infoImg4{
+  background-image: url("https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg");
+}
