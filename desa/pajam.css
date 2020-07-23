@@ -46,24 +46,52 @@
 }
 
 /* Info */
-#info .col-sm{
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
   text-align: center;
-  height: 200px;
 }
-#info .pic{
-  display: inline-block;
-  background-size: cover;
-    
+
+* {
+  box-sizing: border-box;
 }
-#info .infoImg1{
-  background-image: url("https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg");
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
 }
-#info .infoImg2{
-  background-image: url("https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg");
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
 }
-#info .infoImg3{
-  background-image: url("https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg");
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
 }
-#info .infoImg4{
-  background-image: url("https://miro.medium.com/max/1200/1*mk1-6aYaf_Bes1E3Imhc0A.jpeg");
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 }
