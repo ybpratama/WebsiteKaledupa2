@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6{
     position: relative;
     
   }
-  #Pajam .bg-img{
+  #Mantigola .bg-img{
     background-image: url("https://theculturetrip.com/wp-content/uploads/2017/07/11052514_352674761593360_3207542179154652947_n.jpg");
     filter: blur(2px);
     height: 100%;
@@ -361,6 +361,58 @@ h1, h2, h3, h4, h5, h6{
   #Horuo .bg-img{
     background-image: url("https://theculturetrip.com/wp-content/uploads/2017/07/11052514_352674761593360_3207542179154652947_n.jpg");
     filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+  }
+  #Pajam .bg-img{
+    background-image: url("https://theculturetrip.com/wp-content/uploads/2017/07/11052514_352674761593360_3207542179154652947_n.jpg");
+    filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+  }
+  #Sombano .bg-img{
+    background-image: url("https://theculturetrip.com/wp-content/uploads/2017/07/11052514_352674761593360_3207542179154652947_n.jpg");
+    filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+  }
+  #Darawa .bg-img{
+    background-image: url("https://theculturetrip.com/wp-content/uploads/2017/07/11052514_352674761593360_3207542179154652947_n.jpg");
+    filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+  }
+  #Soon .bg-img{
+    background-image: url("https://thumbnails.trvl-media.com/KNy1nFVbYxKORvn6fckC5oKZuVI=/773x530/smart/filters:quality(60)/images.trvl-media.com/hotels/17000000/16310000/16304200/16304181/768693a9_z.jpg");
+    filter: blur(1px);
     height: 100%;
     width: 100%;
     top: 0;
