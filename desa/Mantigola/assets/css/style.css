@@ -1554,3 +1554,8 @@ section {
   font-size: 13px;
   color: #ccc;
 }
+
+#footer .UGM{
+  padding-top: 10px;
+  text-align: center;
+}
