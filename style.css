@@ -67,11 +67,11 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .carousel-item-1{
-  background-image: url(img/Pulau-Hoga.jpg);
+  background-image: url(img/carousel-horuo.JPG);
 }
 
 .carousel-item-2{
-  background-image: url(img/Pulau-Hoga.jpg);
+  background-image: url(img/Pulau-Hoga1.jpg);
 }
 
 .carousel-item-3{
@@ -402,7 +402,9 @@ h1, h2, h3, h4, h5, h6{
     filter:blur(0px);
   }
   #services .box:hover .title   {
-    visibility: hidden;
+    top: 7rem;
+    background-color:rgba(39, 138, 160, 0.7) ;
+    border-radius: 25px;
   }
   #services .box:hover .description  {
     visibility: hidden;
