@@ -25,6 +25,9 @@ h1, h2, h3, h4, h5, h6{
     margin: 0.5rem 1rem 0.5rem;
     font-family: 'Poppins', sans-serif;
 }
+.navbar-brand{
+  font-family: 'Poppins', sans-serif;
+}
 
 
 .bg-dark{
@@ -67,15 +70,15 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .carousel-item-1{
-  background-image: url(img/carousel-horuo.JPG);
+  background-image: url(img/carousel-1.jpg);
 }
 
 .carousel-item-2{
-  background-image: url(img/Pulau-Hoga1.jpg);
+  background-image: url(img/carousel-2.jpg);
 }
 
 .carousel-item-3{
-  background-image: url(img/Pulau-Hoga.jpg);
+  background-image: url(img/carousel-3.jpg);
 }
 
 
