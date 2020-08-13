@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6{
   background-position: center center;
   background-repeat: no-repeat;
   
+  
 }
 
 .carousel-item-1{
@@ -89,18 +90,21 @@ h1, h2, h3, h4, h5, h6{
   transform: translate(-50%,-50%);
   text-align: center;
   color: white;
+  
+  
 }
 
 .carousel-title h5{
-  font-size: 72px ;
+  font-size: 48px ;
   font-style: bold;
   color: white;
+  font-weight: 700;
   
 }    
 
 .carousel-title p{
   font-size: 30px ;
-
+  
 }
 
 
@@ -401,18 +405,7 @@ h1, h2, h3, h4, h5, h6{
   #services .box:hover .icon a {
     color: #4abdcc;
   }
-  #services .box:hover .bg-img {
-    filter:blur(0px);
-  }
-  #services .box:hover .title   {
-    top: 7rem;
-    background-color:rgba(39, 138, 160, 0.7) ;
-    border-radius: 25px;
-  }
-  #services .box:hover .description  {
-    visibility: hidden;
-  }
-    
+  
   #services .title {
     font-weight: 700;
     font-size: 18px;
