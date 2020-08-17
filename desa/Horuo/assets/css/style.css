@@ -65,6 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 5px;
 }
 
+
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
@@ -88,7 +89,11 @@ opacity: 90% !important;
 background-color:#0295b6 !important;
 opacity: 90% !important;
 }
-
+.logo{
+  max-height: 5rem;
+  width: auto;
+  margin-right: 2.5rem;
+}
 
 
 /* End Navbar Style */
@@ -456,6 +461,7 @@ opacity: 90% !important;
 #hero .carousel-control-next-icon:hover, #hero .carousel-control-prev-icon:hover {
   background: rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.8);
+  background:color
 }
 
 #hero .carousel-indicators li {

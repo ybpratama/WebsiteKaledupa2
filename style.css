@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 700;
     margin-bottom: 5px;
   }
-  
+ 
   .section-header .section-description {
     text-align: center;
     padding-bottom: 40px;
@@ -39,7 +39,11 @@ h1, h2, h3, h4, h5, h6{
   background-color:#0295b6 !important;
   opacity: 90% !important;
 }
-
+.logo{
+  max-height: 5rem;
+  width: auto;
+  margin-right: 2.5rem;
+}
 
 
 /* End Navbar Style */
@@ -136,12 +140,32 @@ h1, h2, h3, h4, h5, h6{
 /* 2.2 Button */
 
 .button{
-  background-color: white;
+  /* background-color: white;
   display: inline-block;
   padding: 8px 28px;
   border-radius: 50px;
   margin: 10px;
-  border: 2px solid #fff;
+  border: 2px solid #fff; */
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  line-height: 1;
+  margin: 0 10px;
+  -webkit-animation-delay: 0.8s;
+  animation-delay: 0.8s;
+  color: #fff;
+  border: 2px solid #4abdcc;
+}
+
+.button:hover{
+  background: #4abdcc;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* Button */

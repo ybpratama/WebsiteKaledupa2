@@ -88,7 +88,11 @@ opacity: 90% !important;
 background-color:#0295b6 !important;
 opacity: 90% !important;
 }
-
+.logo{
+  max-height: 5rem;
+  width: auto;
+  margin-right: 2.5rem;
+}
 
 
 /* End Navbar Style */
